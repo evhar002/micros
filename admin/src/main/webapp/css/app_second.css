@@ -1,0 +1,53 @@
+.container {
+    width: 95%;
+    margin: 100px auto 10px;
+}
+
+.col-a.dollars   label {
+    font-weight: normal;
+}
+
+.head   p{
+    padding: 3px 0;
+    margin: 5px 0;
+}
+
+.icon.night {
+    width: 40px;
+    display: inline-block;
+}
+
+.edit {
+    margin-bottom:20px;
+}
+span.thin {
+    font-weight: normal;
+    font-size: 13px;
+    color: black;
+}
+
+.btc-label {
+    margin-right: calc(100% - 80px);
+}
+
+.edit   .icon {
+    margin-right: 5px;
+}
+
+.icon {
+    width: 22px;
+    text-align: right;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.break {
+    margin-bottom:10px;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 930px;
+    }
+}
